@@ -22,6 +22,8 @@ def command(message, res=False):
     bot.send_message(chat_id, text=txt_message, reply_markup=Menu.getMenu(chat_id, "Главное меню").markup)
 
 
+
+# -----------------------------------------------------------------------ВАВ
 # -----------------------------------------------------------------------
 # Получение стикеров от юзера
 @bot.message_handler(content_types=['sticker'])
